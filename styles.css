@@ -128,8 +128,10 @@ h2 {
 }
 
 .grid {
+  margin: 0 auto;
   display: grid;
   gap: 50px;
+  max-width: 1700px;
 }
 
 .character-card {
@@ -183,6 +185,10 @@ footer {
     width: 50%;
     margin: 0 0.7rem;
   }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 975px) {
@@ -212,5 +218,9 @@ footer {
 
   .socials {
     align-self: flex-end;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
