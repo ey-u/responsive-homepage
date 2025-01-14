@@ -165,6 +165,10 @@ footer {
   gap: 20px;
 }
 
+.address {
+  align-self: center;
+}
+
 @media (min-width: 700px) {
   header {
     /* prevent margin collapsing with child */
@@ -188,6 +192,36 @@ footer {
 
   .grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 790px) {
+  .footer {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 0;
+    flex: 1;
+  }
+
+  .contact h2,
+  .contact .socials {
+    align-self: flex-start;
+  }
+
+  footer p {
+    font-size: 1.3rem;
+  }
+
+  footer img {
+    flex: 1;
+    width: 50%;
   }
 }
 
