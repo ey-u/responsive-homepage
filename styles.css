@@ -78,6 +78,10 @@ header {
   z-index: 2;
 }
 
+header img {
+  margin: 0 auto;
+}
+
 header img,
 main img {
   border-radius: 20px;
@@ -157,4 +161,26 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (min-width: 700px) {
+  header {
+    /* prevent margin collapsing with child */
+    overflow: auto;
+  }
+
+  .header-container {
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .header-image {
+    float: left;
+    width: 50%;
+    margin: 0 0.7rem;
+  }
 }
