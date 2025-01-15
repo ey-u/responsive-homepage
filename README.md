@@ -2,6 +2,8 @@
 
 This is a responsive homepage built to look good on any mobile, tablet, or desktop device.
 
+[Visit the live demo](https://ey-u.github.io/responsive-homepage/)
+
 ## Technologies
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
